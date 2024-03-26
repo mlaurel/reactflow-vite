@@ -2,7 +2,7 @@ import type { Edge, EdgeTypes } from "reactflow";
 
 export const initialEdges = [
     { id: "a->c", source: "a", target: "c", animated: true },
-    { id: "a->b", source: "a", target: "b", animated: true },
+    { id: "a->b", source: "a", target: "b", label: "User Submits Form" },
     { id: "b->d", source: "b", target: "d", animated: true },
     { id: "c->d", source: "c", target: "d", animated: true },
     { id: "c->e", source: "c", target: "e", animated: true },
